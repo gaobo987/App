@@ -1,0 +1,135 @@
+*{padding:0px;margin:0px;font-family:"微软雅黑";}
+a{text-decoration:none;}
+body{
+	background:white;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background-color:#f0f0f0;
+}
+header{
+	width:100%;
+	height:0.5rem;
+	background-image:url(../img/bg1_1.png);
+	background-size:100% 100%;
+	.headerbox{
+		width:90%;
+		margin:auto;
+		display:flex;
+		justify-content:space-between;
+		height:0.5rem;
+		font-size:0.16rem;
+		color:white;
+		line-height:0.5rem;
+		a{
+			color:white;
+		}
+		img{
+			width:0.15rem;
+			height:0.14rem;
+		}
+	}
+}
+section{
+	 .swiper-container {
+	  width: 100%;
+	  height: 100%;
+	}
+	.swiper-slide {
+	  text-align: center;
+	  font-size: 0.13rem;
+	  background: #fff;
+	  height:0.4rem;
+	  /* Center slide text vertically */
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -ms-flex-pack: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  -webkit-align-items: center;
+	  align-items: center;
+	}
+	.a{
+		border-bottom:0.01rem solid orangered;
+		color:orangered;
+	}
+}
+footer{
+	width:100%;
+	padding-top:0.1rem;
+	background-color:#d9d6d6;
+	.HBottom{
+		width:96%;
+		margin:auto;
+		text-align:center;
+		.bbox{display:none;}
+		.box{
+			width:100%;
+			height:2.6rem;
+			display:flex;
+			justify-content: space-between;
+			ul{
+				list-style:none;
+				width:48%;
+				background-color:white;
+				padding:0.06rem;
+				position:relative;
+				li{
+					img{
+						width:100%;
+						height:1.6rem;
+					}
+					p{
+						font-size:0.12rem;
+						color:#333333;
+						height:0.32rem;
+						overflow:hidden;
+						word-wrap: normal;
+						text-overflow: ellipsis;
+						text-align: justify;
+						display: -webkit-box;
+						-webkit-line-clamp: 2;
+						-webkit-box-orient: vertical;
+					}
+					span{
+						color:#e73c3c;
+						font-size:0.16rem;
+					}
+					del{
+						color:#999999;
+						font-size:0.12rem;
+					}
+					a{
+						text-decoration:none;
+						color:#999999;
+						span{
+							color:#999999;
+							font-size:0.12rem;
+						}
+					}
+				}
+				li:nth-child(2){
+					margin-top:0.2rem;
+				}
+				li:nth-child(3){
+					display:flex;
+					justify-content:space-around;
+				}
+				li:nth-child(4){
+					position:absolute;
+					top:0.1rem;
+					left:0.05rem;
+					font-size:0.13rem;
+					border:0.01rem solid orangered;
+					color:orangered;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    ul{
+        list-style: none;
+        
+    }
+    
+    a{
+        text-decoration: none;
+    }
+}
+.h-div{
+    width: 100%;
+    height: 50px;
+    background: url(../img/bg1_1.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    
+    img{
+        width: 20px;
+        height: 34px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+.c-li01{
+    width: 100%;
+    height: 45px;
+    background-color: #f8f8f8;
+    line-height: 45px;
+    text-align: right;
+    span{
+        font-size: 16px;
+    }
+    
+    .li01-span2{
+        color: red;
+        margin-right: 20px;
+    }
+}
+.c-li02{
+    img{
+        width: 90px;
+        height: 36px;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+}
+.c-li03{
+    width: 100%;
+    height: 8px;
+    background-color: #F8F8F8;
+    
+    
+}
+.c-li04{
+    height: 52px;
+    line-height: 52px;
+    width: 100%;
+}
+.c-03-div1{
+    float: left;
+margin-left: 20px;
+
+    img{
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+    
+  
+}
+.c-03-div2{
+     float: left;
+margin-left: 10px;
+
+}
+.c-03-div3{
+     float: right;
+     margin-right: 20px;
+     
+     span{
+         border: 1px solid #f23030;
+         color: #f23030;
+         font-size: 7px;
+         margin-right: 10px;
+     }
+     
+}
+.c-03-div4{
+   
+}
+.c-li05{
+    height: 52px;
+    line-height: 52px;
+    width: 100%;
+}
+.c-li06{
+    height: 52px;
+    line-height: 52px;
+    width: 100%;
+    
+    
+}
+.c-li06:after{
+    display: flex;
+    clear: both;
+    content: " ";
+}
+
+.c-li04:after{
+    display: flex;
+    clear: both;
+    content: " ";
+}
+.c-li05:after{
+    display: flex;
+    clear: both;
+    content: " ";
+}
+.c-li07{
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+.f-div01{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    
+    position: fixed;
+    bottom: 0px;
+    
+}

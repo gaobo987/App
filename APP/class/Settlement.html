@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Settlement.css"/>
+	</head>
+	<body>
+		<header class="h-div">
+			<img src="img/img11_03.png"/>
+			收银台
+		</header>
+		<conter>
+			<ul class="c-ul">
+				<li class="c-li01">
+					<span>需要支付：</span>
+					<span class="li01-span2">375.00元</span>
+				</li>
+				<li class="c-li02">
+					<img src="../img/icon/pay.png"/>
+				</li>
+				<li class="c-li03">
+				
+				</li>
+				<li class="c-li04">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-1.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>工商银行</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<span>每单最高减111元</span>
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+
+				<li class="c-li05">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-2.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>工商银行</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+				<li class="c-li06">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-3.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>工商银行</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+				<li class="c-li07">
+					其他支付方式
+				</li>
+					<li class="c-li06">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-4.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>支付宝</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+					<li class="c-li06">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-5.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>微信</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+					<li class="c-li06">
+					<div class="c-03-div1">
+						<img src="../img/icon/apy-6.png"/>
+					</div>
+					<div class="c-03-div2">
+						<span>工商银行</span>
+						<span>储蓄卡(8890)</span>
+					</div>
+					<div class="c-03-div3">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+				</li>
+			</ul>
+		</conter>
+		<footer>
+			<div class="f-div01">
+				银行卡支付：375.00元
+			</div>
+		</footer>
+	</body>
+	<script src="../js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		/**
+ * YDUI 可伸缩布局方案
+ * rem计算方式：设计图尺寸px / 100 = 实际rem  例: 100px = 1rem
+ */
+!function (window) {
+
+    /* 设计图文档宽度 */
+    var docWidth = 360;
+
+    var doc = window.document,
+        docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+
+    var recalc = (function refreshRem () {
+        var clientWidth = docEl.getBoundingClientRect().width;
+
+        /* 8.55：小于320px不再缩小，11.2：大于420px不再放大 */
+        docEl.style.fontSize = Math.max(Math.min(20 * (clientWidth / docWidth), 20.2), 6.55) * 5 + 'px';
+
+        return refreshRem;
+    })();
+
+    /* 添加倍屏标识，安卓为1 */
+    docEl.setAttribute('data-dpr', window.navigator.appVersion.match(/iphone/gi) ? window.devicePixelRatio : 1);
+
+    if (/iP(hone|od|ad)/.test(window.navigator.userAgent)) {
+        /* 添加IOS标识 */
+        doc.documentElement.classList.add('ios');
+        /* IOS8以上给html添加hairline样式，以便特殊处理 */
+        if (parseInt(window.navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/)[1], 10) >= 8)
+            doc.documentElement.classList.add('hairline');
+    }
+
+    if (!doc.addEventListener) return;
+    window.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+
+}(window);
+
+	</script>
+</html>

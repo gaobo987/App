@@ -1,0 +1,421 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  background-image: url(../../img/images/bg1_1.png);
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0rem;
+  z-index: 10; }
+  header ul {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    header ul li:nth-child(1) img {
+      display: block;
+      width: 0.15rem;
+      height: 0.2rem;
+      margin-top: 0.15rem; }
+    header ul li:nth-child(2) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0.1rem; }
+      header ul li:nth-child(2) h5 {
+        font-size: 0.14rem;
+        line-height: 0.49rem;
+        color: #FFFFFF;
+        margin-right: 0.2rem; }
+      header ul li:nth-child(2) h5:nth-child(1) {
+        border-bottom: 2px solid #FFFFFF; }
+    header ul li:nth-child(3) img {
+      margin-top: 0.1rem;
+      display: block;
+      width: 0.25rem;
+      height: 0.25rem; }
+
+.lunbo {
+  margin-top: 0.5rem; }
+  .lunbo .swiper-container {
+    width: 100%;
+    height: 100%; }
+  .lunbo .swiper-slide {
+    text-align: center;
+    font-size: 0.18rem;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+    .lunbo .swiper-slide img {
+      width: 100%;
+      height: 100%; }
+
+.age {
+  width: 95%;
+  margin: auto;
+  margin-top: 0.2rem; }
+  .age ul li:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap; }
+    .age ul li:nth-child(1) h5 {
+      font-size: 0.18rem;
+      color: #ee6446;
+      display: block;
+      margin-right: 0.05rem; }
+    .age ul li:nth-child(1) span {
+      font-size: 0.12rem;
+      color: #9b9b9b;
+      text-decoration: line-through;
+      display: block;
+      margin-top: 0.05rem;
+      margin-right: 0.05rem; }
+    .age ul li:nth-child(1) p {
+      font-size: 0.12rem;
+      color: #cd291e;
+      border: 1px solid #cd291e;
+      display: block;
+      line-height: 0.15rem;
+      height: 0.15rem;
+      padding: 0.02rem; }
+  .age ul li:nth-child(2) h2 {
+    font-size: 0.18rem;
+    height: 0.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
+  .age ul li:nth-child(2) p {
+    font-size: 0.14rem; }
+  .age ul li:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #f5f5f5;
+    margin-top: 0.2rem;
+    height: 0.55rem; }
+    .age ul li:nth-child(3) img {
+      width: 0.33rem;
+      height: 0.35rem;
+      display: block;
+      margin-left: 0.2rem;
+      margin-top: 0.1rem; }
+    .age ul li:nth-child(3) span {
+      font-size: 0.14rem;
+      color: #4a4a4a;
+      display: block;
+      padding-top: 0.09rem;
+      margin-left: 0.15rem;
+      margin-top: 0.1rem; }
+  .age ul li:nth-child(4) {
+    width: 100%;
+    height: 0.55rem;
+    margin-top: 0.1rem; }
+    .age ul li:nth-child(4) img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+.tex {
+  width: 100%;
+  margin: auto; }
+  .tex ul li {
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0; }
+    .tex ul li h5 {
+      font-size: 0.14rem;
+      line-height: 0.4rem;
+      margin-left: 0.1rem; }
+    .tex ul li span:nth-child(2) {
+      display: block;
+      font-size: 0.14rem;
+      line-height: 0.4rem;
+      margin-left: 0.2rem;
+      color: #797979; }
+    .tex ul li span:nth-child(3) {
+      display: block;
+      font-size: 0.23rem;
+      position: absolute;
+      right: 0.1rem;
+      line-height: 0.4rem;
+      color: #ababab; }
+
+.kong {
+  width: 100%;
+  height: 0.1rem;
+  background: #f0f1f5; }
+
+.head {
+  width: 100%;
+  height: 0.4rem; }
+  .head ul li {
+    display: flex;
+    flex-wrap: wrap; }
+    .head ul li p {
+      font-size: 0.14rem;
+      display: block;
+      line-height: 0.43rem;
+      margin-left: 0.1rem; }
+    .head ul li span:nth-child(2) {
+      display: block;
+      font-size: 0.14rem;
+      line-height: 0.43rem;
+      position: absolute;
+      right: 0.3rem;
+      color: #e05851; }
+    .head ul li span:nth-child(3) {
+      display: block;
+      font-size: 0.23rem;
+      position: absolute;
+      right: 0.1rem;
+      line-height: 0.4rem;
+      color: #ababab; }
+
+.Look {
+  width: 95%;
+  height: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto; }
+  .Look img {
+    width: 0.9rem;
+    height: 0.7rem;
+    margin-top: 0.15rem; }
+  .Look div {
+    margin-top: 0.15rem;
+    margin-left: 0.1rem; }
+    .Look div h3 {
+      font-size: 0.16rem; }
+    .Look div p {
+      font-size: 0.14rem;
+      margin-top: 0.03rem; }
+    .Look div p:nth-child(2) {
+      margin-top: 0.1rem; }
+  .Look span:nth-child(3) {
+    display: block;
+    font-size: 0.14rem;
+    position: absolute;
+    right: 0.3rem;
+    color: #e05851;
+    line-height: 1rem; }
+  .Look span:nth-child(4) {
+    display: block;
+    font-size: 0.23rem;
+    position: absolute;
+    right: 0.1rem;
+    line-height: 1rem;
+    color: #ababab; }
+
+.Suit {
+  width: 95%;
+  padding-bottom: 0.22rem;
+  margin: auto;
+  height: 1.1rem;
+  margin-top: 0.1rem; }
+  .Suit ::-webkit-scrollbar {
+    display: none;
+    /*闅愯棌婊氳疆*/ }
+  .Suit .Suit1 {
+    width: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between; }
+    .Suit .Suit1 .swiper-slide {
+      width: 0.8rem;
+      margin-right: 0.09rem; }
+      .Suit .Suit1 .swiper-slide ul li:nth-child(1) {
+        width: 0.8rem;
+        height: 0.8rem;
+        margin: auto; }
+        .Suit .Suit1 .swiper-slide ul li:nth-child(1) img {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      .Suit .Suit1 .swiper-slide ul li:nth-child(2) {
+        width: 0.8rem;
+        height: 0.3rem;
+        overflow: hidden; }
+        .Suit .Suit1 .swiper-slide ul li:nth-child(2) p {
+          font-size: 0.12rem;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }
+      .Suit .Suit1 .swiper-slide ul li:nth-child(3) {
+        position: relative;
+        height: 0.2rem; }
+        .Suit .Suit1 .swiper-slide ul li:nth-child(3) span:nth-child(1) {
+          font-size: 0.12rem;
+          color: red;
+          position: absolute;
+          top: 0.01rem; }
+        .Suit .Suit1 .swiper-slide ul li:nth-child(3) span:nth-child(2) {
+          font-size: 0.08rem;
+          position: absolute;
+          top: 0.03rem;
+          right: 0rem;
+          text-decoration: line-through;
+          color: #979797; }
+
+.Attributes {
+  width: 100%;
+  padding-bottom: 0.7rem; }
+  .Attributes ul li {
+    width: 100%; }
+    .Attributes ul li img {
+      width: 100%;
+      height: 100%; }
+  .Attributes ul li:nth-child(1) {
+    width: 100%;
+    text-align: center; }
+    .Attributes ul li:nth-child(1) h5 {
+      font-size: 0.14rem;
+      margin-top: 0.3rem; }
+  .Attributes ul li:nth-child(2) {
+    height: 5rem;
+    margin-top: 0.2rem; }
+  .Attributes ul li:nth-child(3) {
+    height: 2.5rem; }
+  .Attributes ul li:nth-child(4) {
+    height: 1.5rem; }
+  .Attributes ul li:nth-child(5) {
+    height: 6rem; }
+  .Attributes ul li:nth-child(6) {
+    height: 6rem; }
+  .Attributes ul li:nth-child(7) {
+    height: 4.3rem; }
+  .Attributes ul li:nth-child(8) {
+    height: 0.5rem; }
+
+.recommend {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem; }
+  .recommend ul {
+    width: 45%; }
+    .recommend ul li:nth-child(1) {
+      width: 100%;
+      height: 1.7rem; }
+      .recommend ul li:nth-child(1) img {
+        width: 100%;
+        height: 100%; }
+    .recommend ul li:nth-child(2) {
+      font-size: 0.12rem;
+      height: 0.35rem;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
+    .recommend ul li:nth-child(3) {
+      display: flex;
+      flex-wrap: wrap; }
+      .recommend ul li:nth-child(3) span:nth-child(1) {
+        font-size: 0.14rem;
+        color: red;
+        margin-top: -0.02rem; }
+      .recommend ul li:nth-child(3) span:nth-child(2) {
+        text-decoration: line-through; }
+      .recommend ul li:nth-child(3) span {
+        color: #919191;
+        margin-top: 0.05rem;
+        display: block;
+        font-size: 0.10rem;
+        margin-right: 0.05rem; }
+
+.bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0rem;
+  z-index: 10;
+  background: #FFFFFF; }
+  .bottom ul {
+    display: flex;
+    justify-content: space-around; }
+    .bottom ul li img {
+      width: 0.2rem;
+      height: 0.2rem;
+      display: block;
+      margin-top: 0.1rem; }
+    .bottom ul li a {
+      display: block;
+      font-size: 0.12rem;
+      text-decoration: none;
+      color: black; }
+    .bottom ul li button {
+      width: 0.9rem;
+      height: 0.5rem;
+      color: #FFFFFF;
+      border: 0rem; }
+    .bottom ul li button:nth-child(1) {
+      background: #ffb03e;
+      position: absolute;
+      top: 0rem;
+      left: 0rem; }
+    .bottom ul li button:nth-child(2) {
+      background: #ff5f53;
+      position: absolute;
+      top: 0rem;
+      right: 0rem; }
+    .bottom ul li:nth-child(4) {
+      width: 1.8rem;
+      position: relative; }
+
+.select {
+  width: 100%;
+  height: 5rem;
+  background: #f0f1f5;
+  z-index: 20;
+  position: fixed;
+  bottom: 0rem;
+  display: block; }
+  .select ul li:nth-child(1) {
+    width: 100%;
+    text-align: center; }
+    .select ul li:nth-child(1) h5 {
+      font-size: 0.12rem; }
+  .select ul li:nth-child(2) {
+    font-size: 0.12rem;
+    position: relative; }
+    .select ul li:nth-child(2) p {
+      padding-top: 0.15rem;
+      background: #FFFFFF;
+      width: 0.3rem;
+      height: 0.3rem;
+      position: absolute;
+      right: 0;
+      text-align: right; }
+  .select ul li:nth-child(3) {
+    width: 100%;
+    position: absolute;
+    bottom: 0rem; }
+    .select ul li:nth-child(3) button {
+      width: 50%;
+      height: 0.5rem;
+      border: 0rem; }
+    .select ul li:nth-child(3) button:nth-child(1) {
+      background: #ffb03f; }
+    .select ul li:nth-child(3) button:nth-child(2) {
+      background: #ff5f53; }
+
+/*# sourceMappingURL=xiangqing.css.map */
